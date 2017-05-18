@@ -15,3 +15,5 @@ var button = document.getElementById('get-joke');
 button.addEventListener('click', function() {
 	getJoke();
 });
+
+getJoke(); //Joke on pageload
